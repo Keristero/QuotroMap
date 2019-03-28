@@ -1,7 +1,7 @@
 @echo off
 title Map Updater
 git add *
-git commit -a -m map_update
+git commit -a -m "Updating the map."
 git push
 git pull
 pause
